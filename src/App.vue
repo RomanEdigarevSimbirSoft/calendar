@@ -21,6 +21,7 @@ export default {
   async created() {
     this.activities = await CalendarService.fetchActivities()
   },
+
 };
 </script>
 

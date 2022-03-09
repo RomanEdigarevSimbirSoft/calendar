@@ -82,9 +82,6 @@ export default {
         moment(this.dateContext).date(date).format("DD.MM.YY")
       );
     },
-    isToday(date) {
-      return this.dateContext.date(date).isSame(new Date(), "day");
-    },
   },
   computed: {
     activitiesMap() {
