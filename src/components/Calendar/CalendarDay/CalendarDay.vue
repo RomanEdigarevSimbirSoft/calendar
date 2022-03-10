@@ -92,7 +92,7 @@ export default {
       margin-bottom: 2px;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-height: 100px;
+      //max-height: 100px;
       &:hover {
         padding: 4px;
         max-width: 200px;
